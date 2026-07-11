@@ -44,10 +44,13 @@ Random Forest       ~6 129     ~0.74
 ## Структура репозитория
 
 ```
-├── CaseBridge.ipynb   — весь код: EDA, подготовка данных, регрессия, классификация
-├── freelance_tasks.csv — датасет (3000 строк)
-├── requirements.txt   — зависимости
-└── README.md
+|-data
+|-information
+    |- graphs
+    |- instruments.md
+|-notebooks
+    |-CaseBridge.ipynb
+|-README.md
 ```
 
 ## Как запустить
